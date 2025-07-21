@@ -1,0 +1,714 @@
+[
+  {
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@techcorp.com",
+    "company": "TechCorp Solutions",
+    "title": "Senior Software Engineer",
+    "location_met": "ReactConf 2024",
+    "notes": "Expert in React and Node.js. Interested in collaborating on open source projects."
+  },
+  {
+    "name": "Michael Chen",
+    "email": "m.chen@dataflow.io",
+    "company": "DataFlow Analytics",
+    "title": "Data Science Manager",
+    "location_met": "AI Summit San Francisco",
+    "notes": "Leading ML initiatives. Looking for talented data engineers."
+  },
+  {
+    "name": "Emily Rodriguez",
+    "email": "emily.r@designstudio.com",
+    "company": "Creative Design Studio",
+    "title": "UX Design Lead",
+    "location_met": "Design Week NYC",
+    "notes": "Passionate about user-centered design. Always looking for design feedback."
+  },
+  {
+    "name": "David Kim",
+    "email": "david@startupx.com",
+    "company": "StartupX",
+    "title": "Co-Founder & CTO",
+    "location_met": "TechCrunch Disrupt",
+    "notes": "Building the next big thing in fintech. Open to investor connections."
+  },
+  {
+    "name": "Jessica Taylor",
+    "email": "j.taylor@consulting.com",
+    "company": "Strategic Consulting Group",
+    "title": "Management Consultant",
+    "location_met": "Business Strategy Conference",
+    "notes": "Helps companies with digital transformation. Great network in Fortune 500."
+  },
+  {
+    "name": "Alex Thompson",
+    "email": "alex.t@cloudnative.io",
+    "company": "CloudNative Systems",
+    "title": "DevOps Engineer",
+    "location_met": "KubeCon Europe",
+    "notes": "Kubernetes expert. Loves automating everything. Pet project: homelab setup."
+  },
+  {
+    "name": "Maria Garcia",
+    "email": "maria@marketingpro.com",
+    "company": "Marketing Pro Agency",
+    "title": "Digital Marketing Director",
+    "location_met": "Digital Marketing Expo",
+    "notes": "Growth hacking specialist. Runs successful campaigns for B2B SaaS companies."
+  },
+  {
+    "name": "James Wilson",
+    "email": "james.wilson@securetech.com",
+    "company": "SecureTech Inc",
+    "title": "Cybersecurity Analyst",
+    "location_met": "InfoSec Conference",
+    "notes": "Penetration testing expert. Offers security consulting for startups."
+  },
+  {
+    "name": "Rachel Green",
+    "email": "rachel@ecotech.org",
+    "company": "EcoTech Innovations",
+    "title": "Sustainability Manager",
+    "location_met": "Green Tech Summit",
+    "notes": "Working on carbon footprint tracking software. Interested in environmental tech."
+  },
+  {
+    "name": "Robert Anderson",
+    "email": "r.anderson@financeflow.com",
+    "company": "FinanceFlow Corp",
+    "title": "Senior Financial Analyst",
+    "location_met": "FinTech Conference",
+    "notes": "Expert in financial modeling. Looking to transition into fintech product management."
+  },
+  {
+    "name": "Lisa Wang",
+    "email": "lisa@mobilefirst.com",
+    "company": "MobileFirst Development",
+    "title": "Mobile App Developer",
+    "location_met": "Mobile World Congress",
+    "notes": "iOS and Android expert. Working on revolutionary AR shopping app."
+  },
+  {
+    "name": "Christopher Lee",
+    "email": "chris.lee@blockchain.tech",
+    "company": "Blockchain Technologies",
+    "title": "Blockchain Developer",
+    "location_met": "Crypto Summit Miami",
+    "notes": "Smart contract specialist. Building DeFi protocols. Always up for crypto discussions."
+  },
+  {
+    "name": "Amanda Brooks",
+    "email": "amanda@hrtech.solutions",
+    "company": "HR Tech Solutions",
+    "title": "People Operations Manager",
+    "location_met": "HR Innovation Conference",
+    "notes": "Revolutionizing remote work culture. Great insights on team building and retention."
+  },
+  {
+    "name": "Daniel Martinez",
+    "email": "d.martinez@gamedev.studio",
+    "company": "Indie Game Studio",
+    "title": "Game Developer",
+    "location_met": "Game Developers Conference",
+    "notes": "Unity expert. Working on next-gen VR gaming experiences. Loves indie game scene."
+  },
+  {
+    "name": "Stephanie Brown",
+    "email": "stephanie@legaltech.io",
+    "company": "LegalTech Innovations",
+    "title": "Product Manager",
+    "location_met": "LegalTech Summit",
+    "notes": "Digitizing legal processes. Background in law and technology. Great network in legal sector."
+  },
+  {
+    "name": "Kevin O'Connor",
+    "email": "kevin@edtech.learning",
+    "company": "EdTech Learning Platform",
+    "title": "Educational Technology Specialist",
+    "location_met": "Education Technology Fair",
+    "notes": "Passionate about making education accessible. Working on AI-powered tutoring systems."
+  },
+  {
+    "name": "Natalie Davis",
+    "email": "natalie@healthtech.com",
+    "company": "HealthTech Solutions",
+    "title": "Healthcare Software Engineer",
+    "location_met": "Digital Health Conference",
+    "notes": "HIPAA compliance expert. Building patient management systems. Former nurse turned developer."
+  },
+  {
+    "name": "Brandon Miller",
+    "email": "brandon@logistics.tech",
+    "company": "Smart Logistics",
+    "title": "Supply Chain Analyst",
+    "location_met": "Supply Chain Innovation Summit",
+    "notes": "Optimizing delivery routes with AI. Former Amazon logistics manager. Great industry connections."
+  },
+  {
+    "name": "Catherine Zhang",
+    "email": "catherine@biotech.research",
+    "company": "BioTech Research Lab",
+    "title": "Bioinformatics Scientist",
+    "location_met": "Biotech Symposium",
+    "notes": "PhD in Computational Biology. Working on drug discovery algorithms. Open to tech collaborations."
+  },
+  {
+    "name": "Justin Clark",
+    "email": "justin@renewable.energy",
+    "company": "Renewable Energy Systems",
+    "title": "Energy Systems Engineer",
+    "location_met": "Clean Energy Expo",
+    "notes": "Solar and wind energy expert. Developing smart grid solutions. Passionate about climate tech."
+  },
+  {
+    "name": "Melissa Turner",
+    "email": "melissa@foodtech.startup",
+    "company": "FoodTech Startup",
+    "title": "Food Science Engineer",
+    "location_met": "Food Innovation Conference",
+    "notes": "Creating sustainable food alternatives. Background in biochemistry. Great contacts in food industry."
+  },
+  {
+    "name": "Andrew Phillips",
+    "email": "andrew@autotech.ai",
+    "company": "AutoTech AI",
+    "title": "Autonomous Vehicle Engineer",
+    "location_met": "Autonomous Vehicle Summit",
+    "notes": "Computer vision specialist. Working on self-driving car algorithms. Former Tesla engineer."
+  },
+  {
+    "name": "Jennifer Adams",
+    "email": "jennifer@retailtech.com",
+    "company": "RetailTech Solutions",
+    "title": "E-commerce Platform Manager",
+    "location_met": "E-commerce Innovation Fair",
+    "notes": "Omnichannel retail expert. Implemented successful digital transformations for major retailers."
+  },
+  {
+    "name": "Ryan Murphy",
+    "email": "ryan@aerospace.tech",
+    "company": "Aerospace Technologies",
+    "title": "Aerospace Engineer",
+    "location_met": "Space Tech Conference",
+    "notes": "Satellite systems designer. Working on commercial space projects. Aviation enthusiast."
+  },
+  {
+    "name": "Nicole Scott",
+    "email": "nicole@proptech.ventures",
+    "company": "PropTech Ventures",
+    "title": "Real Estate Technology Analyst",
+    "location_met": "PropTech Summit",
+    "notes": "Revolutionizing real estate with technology. Background in property development and software."
+  },
+  {
+    "name": "Gregory Hall",
+    "email": "greg@insurtech.innovation",
+    "company": "InsurTech Innovations",
+    "title": "Insurance Product Manager",
+    "location_met": "InsurTech Conference",
+    "notes": "Digitizing insurance processes. Former actuary with strong tech background. Great industry insights."
+  },
+  {
+    "name": "Samantha Young",
+    "email": "samantha@agtech.solutions",
+    "company": "AgTech Solutions",
+    "title": "Agricultural Technology Specialist",
+    "location_met": "AgTech Innovation Day",
+    "notes": "Precision agriculture expert. Developing IoT solutions for farmers. Background in agricultural science."
+  },
+  {
+    "name": "Timothy Wright",
+    "email": "timothy@sportstech.io",
+    "company": "SportsTech Analytics",
+    "title": "Sports Data Analyst",
+    "location_met": "Sports Technology Summit",
+    "notes": "Performance analytics expert. Working with professional sports teams. Former college athlete."
+  },
+  {
+    "name": "Hannah Lewis",
+    "email": "hannah@musictech.app",
+    "company": "MusicTech App",
+    "title": "Audio Software Engineer",
+    "location_met": "Music Technology Fair",
+    "notes": "Digital audio processing expert. Building next-gen music production tools. Professional musician background."
+  },
+  {
+    "name": "Jason Moore",
+    "email": "jason@traveltech.platform",
+    "company": "TravelTech Platform",
+    "title": "Travel Technology Manager",
+    "location_met": "Travel Innovation Conference",
+    "notes": "Booking system optimization specialist. Former airline operations manager. Global travel network."
+  },
+  {
+    "name": "Victoria King",
+    "email": "victoria@fashiontech.design",
+    "company": "FashionTech Design",
+    "title": "Fashion Technology Designer",
+    "location_met": "Fashion Tech Week",
+    "notes": "Wearable technology innovator. Combining fashion with smart technology. Strong fashion industry connections."
+  },
+  {
+    "name": "Marcus Johnson",
+    "email": "marcus@constructech.build",
+    "company": "ConstrucTech Build",
+    "title": "Construction Technology Manager",
+    "location_met": "Construction Innovation Expo",
+    "notes": "Building information modeling expert. Digitizing construction processes. Former civil engineer."
+  },
+  {
+    "name": "Laura Mitchell",
+    "email": "laura@pettech.care",
+    "company": "PetTech Care",
+    "title": "Veterinary Technology Specialist",
+    "location_met": "Pet Technology Conference",
+    "notes": "Pet health monitoring systems developer. Veterinarian turned tech entrepreneur. Animal welfare advocate."
+  },
+  {
+    "name": "Steven Roberts",
+    "email": "steven@cleantech.energy",
+    "company": "CleanTech Energy",
+    "title": "Clean Energy Consultant",
+    "location_met": "Renewable Energy Summit",
+    "notes": "Carbon capture technology expert. Advising governments on clean energy policies. Environmental engineer background."
+  },
+  {
+    "name": "Patricia Campbell",
+    "email": "patricia@eldertech.care",
+    "company": "ElderTech Care",
+    "title": "Senior Care Technology Manager",
+    "location_met": "AgeTech Innovation Summit",
+    "notes": "Aging-in-place technology solutions. Background in geriatric care and software development."
+  },
+  {
+    "name": "Joshua Evans",
+    "email": "joshua@quantumtech.research",
+    "company": "Quantum Tech Research",
+    "title": "Quantum Computing Researcher",
+    "location_met": "Quantum Computing Symposium",
+    "notes": "Quantum algorithm specialist. PhD in Quantum Physics. Working on quantum cryptography applications."
+  },
+  {
+    "name": "Kelly Nelson",
+    "email": "kelly@neutech.brain",
+    "company": "NeuTech Brain Interface",
+    "title": "Neurotechnology Engineer",
+    "location_met": "Neurotechnology Conference",
+    "notes": "Brain-computer interface developer. Background in neuroscience and electrical engineering."
+  },
+  {
+    "name": "Eric Parker",
+    "email": "eric@robotech.automation",
+    "company": "RoboTech Automation",
+    "title": "Robotics Engineer",
+    "location_met": "Robotics Innovation Fair",
+    "notes": "Industrial automation specialist. Building next-gen manufacturing robots. MIT robotics PhD."
+  },
+  {
+    "name": "Michelle Baker",
+    "email": "michelle@voicetech.ai",
+    "company": "VoiceTech AI",
+    "title": "Voice Technology Specialist",
+    "location_met": "Voice Technology Summit",
+    "notes": "Natural language processing expert. Building conversational AI systems. Former linguistics professor."
+  },
+  {
+    "name": "Tyler Collins",
+    "email": "tyler@climatetech.solutions",
+    "company": "ClimateTech Solutions",
+    "title": "Climate Technology Analyst",
+    "location_met": "Climate Technology Forum",
+    "notes": "Climate modeling and prediction systems. Environmental scientist turned data scientist. UN climate advisor."
+  },
+  {
+    "name": "Ashley Reed",
+    "email": "ashley@watertech.purify",
+    "company": "WaterTech Purification",
+    "title": "Water Treatment Engineer",
+    "location_met": "Water Technology Expo",
+    "notes": "Clean water technology innovator. Developing portable water purification systems for developing countries."
+  },
+  {
+    "name": "Nathan Hughes",
+    "email": "nathan@spacetech.satellite",
+    "company": "SpaceTech Satellites",
+    "title": "Satellite Systems Engineer",
+    "location_met": "Satellite Technology Conference",
+    "notes": "CubeSat design specialist. Working on constellation deployment systems. Former NASA contractor."
+  },
+  {
+    "name": "Megan Powell",
+    "email": "megan@biomedtech.devices",
+    "company": "BioMedTech Devices",
+    "title": "Biomedical Device Engineer",
+    "location_met": "Medical Device Innovation Summit",
+    "notes": "Medical device regulatory expert. Developing FDA-approved diagnostic equipment. Biomedical engineering background."
+  },
+  {
+    "name": "Connor Price",
+    "email": "connor@oceantech.marine",
+    "company": "OceanTech Marine",
+    "title": "Marine Technology Researcher",
+    "location_met": "Ocean Technology Symposium",
+    "notes": "Underwater robotics specialist. Ocean conservation through technology. Marine biology and engineering background."
+  },
+  {
+    "name": "Brittany Cox",
+    "email": "brittany@socialtech.platform",
+    "company": "SocialTech Platform",
+    "title": "Social Media Technology Manager",
+    "location_met": "Social Technology Conference",
+    "notes": "Content moderation AI expert. Building safer online communities. Psychology and computer science background."
+  },
+  {
+    "name": "Cameron Ward",
+    "email": "cameron@securitytech.cyber",
+    "company": "SecurityTech Cyber",
+    "title": "Cybersecurity Architect",
+    "location_met": "Cybersecurity Summit",
+    "notes": "Zero-trust security framework specialist. Former government cybersecurity analyst. Top security clearance."
+  },
+  {
+    "name": "Danielle Foster",
+    "email": "danielle@beautytech.cosmetic",
+    "company": "BeautyTech Cosmetics",
+    "title": "Cosmetic Technology Developer",
+    "location_met": "Beauty Technology Expo",
+    "notes": "Smart skincare technology innovator. Chemistry background with beauty industry expertise."
+  },
+  {
+    "name": "Ian Richardson",
+    "email": "ian@dronetech.aerial",
+    "company": "DroneTech Aerial",
+    "title": "Drone Technology Specialist",
+    "location_met": "Drone Innovation Conference",
+    "notes": "Commercial drone applications expert. FAA certified pilot instructor. Former military drone operator."
+  },
+  {
+    "name": "Crystal Sanders",
+    "email": "crystal@medtech.diagnostics",
+    "company": "MedTech Diagnostics",
+    "title": "Medical Imaging Engineer",
+    "location_met": "Medical Imaging Summit",
+    "notes": "AI-powered medical imaging specialist. Radiology and machine learning expertise. Published researcher."
+  },
+  {
+    "name": "Jordan Torres",
+    "email": "jordan@printtech.3d",
+    "company": "PrintTech 3D",
+    "title": "3D Printing Technology Manager",
+    "location_met": "3D Printing Expo",
+    "notes": "Additive manufacturing expert. Prototyping and production scaling specialist. Materials science background."
+  },
+  {
+    "name": "Alexis Gray",
+    "email": "alexis@nanotech.materials",
+    "company": "NanoTech Materials",
+    "title": "Nanotechnology Researcher",
+    "location_met": "Nanotechnology Symposium",
+    "notes": "Nanomaterials applications specialist. PhD in Materials Science. Working on next-gen semiconductors."
+  },
+  {
+    "name": "Blake Stewart",
+    "email": "blake@virtualtech.reality",
+    "company": "VirtualTech Reality",
+    "title": "VR/AR Developer",
+    "location_met": "Virtual Reality Conference",
+    "notes": "Immersive experience designer. Unity and Unreal Engine expert. Building enterprise VR training systems."
+  },
+  {
+    "name": "Kimberly Morris",
+    "email": "kimberly@textiletech.smart",
+    "company": "TextileTech Smart Fabrics",
+    "title": "Smart Textile Engineer",
+    "location_met": "Smart Textiles Summit",
+    "notes": "Wearable sensor integration specialist. Textile engineering and electronics background. Athletic wear innovations."
+  },
+  {
+    "name": "Derek Cooper",
+    "email": "derek@smartcity.urban",
+    "company": "SmartCity Urban Solutions",
+    "title": "Smart City Technology Consultant",
+    "location_met": "Smart Cities Conference",
+    "notes": "Urban IoT systems specialist. City planning and technology integration expert. Former city engineer."
+  },
+  {
+    "name": "Tiffany Peterson",
+    "email": "tiffany@genomtech.sequence",
+    "company": "GenomTech Sequencing",
+    "title": "Genomics Data Scientist",
+    "location_met": "Genomics Technology Summit",
+    "notes": "DNA sequencing analysis expert. Bioinformatics and machine learning specialist. Precision medicine researcher."
+  },
+  {
+    "name": "Austin Reed",
+    "email": "austin@batterytech.energy",
+    "company": "BatteryTech Energy",
+    "title": "Battery Technology Engineer",
+    "location_met": "Battery Technology Expo",
+    "notes": "Next-gen battery chemistry specialist. Electric vehicle and grid storage expert. Electrochemical engineering background."
+  },
+  {
+    "name": "Courtney Bailey",
+    "email": "courtney@languagetech.translate",
+    "company": "LanguageTech Translation",
+    "title": "Language Technology Specialist",
+    "location_met": "Language Technology Conference",
+    "notes": "Real-time translation systems developer. Computational linguistics expert. Fluent in 6 languages."
+  },
+  {
+    "name": "Trevor Russell",
+    "email": "trevor@windtech.turbine",
+    "company": "WindTech Turbines",
+    "title": "Wind Energy Engineer",
+    "location_met": "Wind Energy Summit",
+    "notes": "Wind turbine optimization specialist. Mechanical engineering and aerodynamics expert. Offshore wind experience."
+  },
+  {
+    "name": "Brooke Hughes",
+    "email": "brooke@memorytech.storage",
+    "company": "MemoryTech Storage",
+    "title": "Storage Technology Architect",
+    "location_met": "Storage Technology Conference",
+    "notes": "Next-gen memory systems developer. Computer architecture and storage optimization expert. Former Intel engineer."
+  },
+  {
+    "name": "Cody Washington",
+    "email": "cody@thermaltech.cooling",
+    "company": "ThermalTech Cooling",
+    "title": "Thermal Management Engineer",
+    "location_met": "Thermal Management Summit",
+    "notes": "Advanced cooling systems specialist. Data center and electronics thermal design expert. Mechanical engineering PhD."
+  },
+  {
+    "name": "Sierra Butler",
+    "email": "sierra@opticaltech.photonics",
+    "company": "OpticalTech Photonics",
+    "title": "Optical Systems Engineer",
+    "location_met": "Photonics Conference",
+    "notes": "Laser and optical communication systems expert. Photonics engineering and quantum optics background."
+  },
+  {
+    "name": "Caleb Jenkins",
+    "email": "caleb@sensortech.iot",
+    "company": "SensorTech IoT",
+    "title": "IoT Sensor Developer",
+    "location_met": "IoT Technology Expo",
+    "notes": "Wireless sensor network specialist. Embedded systems and low-power design expert. Industrial IoT focus."
+  },
+  {
+    "name": "Paige Coleman",
+    "email": "paige@displaytech.screens",
+    "company": "DisplayTech Screens",
+    "title": "Display Technology Engineer",
+    "location_met": "Display Technology Summit",
+    "notes": "OLED and microLED display specialist. Next-gen screen technology developer. Materials science background."
+  },
+  {
+    "name": "Gavin Barnes",
+    "email": "gavin@chiptech.semiconductors",
+    "company": "ChipTech Semiconductors",
+    "title": "Semiconductor Design Engineer",
+    "location_met": "Semiconductor Conference",
+    "notes": "ASIC and FPGA design specialist. High-speed digital circuit expert. Former Qualcomm engineer."
+  },
+  {
+    "name": "Jenna Henderson",
+    "email": "jenna@cloudtech.infrastructure",
+    "company": "CloudTech Infrastructure",
+    "title": "Cloud Infrastructure Architect",
+    "location_met": "Cloud Computing Summit",
+    "notes": "Multi-cloud deployment specialist. Kubernetes and containerization expert. Former AWS solutions architect."
+  },
+  {
+    "name": "Lucas Ross",
+    "email": "lucas@apitech.integration",
+    "company": "APITech Integration",
+    "title": "API Architecture Specialist",
+    "location_met": "API Strategy Conference",
+    "notes": "Microservices and API gateway expert. GraphQL and REST optimization specialist. Developer experience advocate."
+  },
+  {
+    "name": "Destiny Patterson",
+    "email": "destiny@chattech.bots",
+    "company": "ChatTech Bots",
+    "title": "Conversational AI Developer",
+    "location_met": "Chatbot Technology Summit",
+    "notes": "Chatbot and virtual assistant specialist. NLP and dialogue systems expert. Customer service automation focus."
+  },
+  {
+    "name": "Garrett Brooks",
+    "email": "garrett@edgetech.computing",
+    "company": "EdgeTech Computing",
+    "title": "Edge Computing Engineer",
+    "location_met": "Edge Computing Conference",
+    "notes": "Edge AI and distributed computing specialist. Low-latency system optimization expert. IoT edge deployment focus."
+  },
+  {
+    "name": "Mariah Kelly",
+    "email": "mariah@streamtech.media",
+    "company": "StreamTech Media",
+    "title": "Media Streaming Engineer",
+    "location_met": "Streaming Technology Expo",
+    "notes": "Video streaming optimization specialist. CDN and media delivery expert. Live streaming technology focus."
+  },
+  {
+    "name": "Felix Alexander",
+    "email": "felix@cryptotech.blockchain",
+    "company": "CryptoTech Blockchain",
+    "title": "Cryptocurrency Developer",
+    "location_met": "Blockchain Developer Summit",
+    "notes": "DeFi protocol developer. Smart contract security specialist. Ethereum and layer-2 scaling expert."
+  },
+  {
+    "name": "Jade Fisher",
+    "email": "jade@visualtech.graphics",
+    "company": "VisualTech Graphics",
+    "title": "Computer Graphics Engineer",
+    "location_met": "Computer Graphics Conference",
+    "notes": "Real-time rendering specialist. GPU programming and shader development expert. Game engine optimization focus."
+  },
+  {
+    "name": "Bryce Sanders",
+    "email": "bryce@quantumtech.crypto",
+    "company": "QuantumTech Cryptography",
+    "title": "Quantum Cryptography Researcher",
+    "location_met": "Quantum Security Summit",
+    "notes": "Post-quantum cryptography specialist. Quantum key distribution expert. Cryptographic protocol designer."
+  },
+  {
+    "name": "Jasmine Price",
+    "email": "jasmine@biometric.security",
+    "company": "Biometric Security Systems",
+    "title": "Biometric Technology Engineer",
+    "location_met": "Biometric Security Conference",
+    "notes": "Fingerprint and facial recognition specialist. Multi-modal biometric systems expert. Privacy-preserving authentication focus."
+  },
+  {
+    "name": "Preston Ward",
+    "email": "preston@autonomoustech.systems",
+    "company": "AutonomousTech Systems",
+    "title": "Autonomous Systems Engineer",
+    "location_met": "Autonomous Technology Summit",
+    "notes": "Self-driving algorithms specialist. Computer vision and sensor fusion expert. Safety-critical systems focus."
+  },
+  {
+    "name": "Skylar Morris",
+    "email": "skylar@predictivetech.analytics",
+    "company": "PredictiveTech Analytics",
+    "title": "Predictive Analytics Specialist",
+    "location_met": "Predictive Analytics Conference",
+    "notes": "Time series forecasting expert. Machine learning model deployment specialist. Business intelligence focus."
+  },
+  {
+    "name": "Dakota Cooper",
+    "email": "dakota@meshtech.networks",
+    "company": "MeshTech Networks",
+    "title": "Mesh Networking Engineer",
+    "location_met": "Wireless Networking Summit",
+    "notes": "Wireless mesh protocol specialist. Software-defined networking expert. Rural connectivity solutions focus."
+  },
+  {
+    "name": "Phoenix Turner",
+    "email": "phoenix@adaptivetech.ai",
+    "company": "AdaptiveTech AI",
+    "title": "Adaptive AI Researcher",
+    "location_met": "Adaptive AI Conference",
+    "notes": "Continual learning systems specialist. Neural network adaptation expert. Real-time AI optimization focus."
+  },
+  {
+    "name": "River Kim",
+    "email": "river@sustainabletech.green",
+    "company": "SustainableTech Green",
+    "title": "Sustainable Technology Consultant",
+    "location_met": "Sustainable Technology Forum",
+    "notes": "Green computing specialist. Energy-efficient system design expert. Carbon-neutral technology advocate."
+  },
+  {
+    "name": "Sage Johnson",
+    "email": "sage@hybridtech.cloud",
+    "company": "HybridTech Cloud",
+    "title": "Hybrid Cloud Architect",
+    "location_met": "Hybrid Cloud Summit",
+    "notes": "Multi-cloud strategy specialist. Container orchestration expert. Cloud migration and optimization focus."
+  },
+  {
+    "name": "Storm Davis",
+    "email": "storm@weathertech.prediction",
+    "company": "WeatherTech Prediction",
+    "title": "Weather Technology Specialist",
+    "location_met": "Weather Technology Conference",
+    "notes": "Meteorological modeling expert. Climate prediction systems developer. Atmospheric science and AI background."
+  },
+  {
+    "name": "Ocean Martinez",
+    "email": "ocean@fluidtech.dynamics",
+    "company": "FluidTech Dynamics",
+    "title": "Fluid Dynamics Engineer",
+    "location_met": "Fluid Dynamics Summit",
+    "notes": "Computational fluid dynamics specialist. Flow simulation and optimization expert. Aerospace applications focus."
+  },
+  {
+    "name": "Aurora Wilson",
+    "email": "aurora@lightech.photons",
+    "company": "LightTech Photons",
+    "title": "Photonic Systems Designer",
+    "location_met": "Photonic Technology Expo",
+    "notes": "Optical computing specialist. Photonic chip design expert. Quantum photonics research background."
+  },
+  {
+    "name": "Atlas Brown",
+    "email": "atlas@mappingtech.geo",
+    "company": "MappingTech Geospatial",
+    "title": "Geospatial Technology Manager",
+    "location_met": "GIS Technology Conference",
+    "notes": "Geographic information systems expert. Satellite imagery analysis specialist. Location intelligence focus."
+  },
+  {
+    "name": "Luna Rodriguez",
+    "email": "luna@sleeptech.wellness",
+    "company": "SleepTech Wellness",
+    "title": "Sleep Technology Researcher",
+    "location_met": "Sleep Technology Summit",
+    "notes": "Sleep monitoring systems specialist. Wearable health technology expert. Circadian rhythm research background."
+  },
+  {
+    "name": "Orion Taylor",
+    "email": "orion@startech.astronomy",
+    "company": "StarTech Astronomy",
+    "title": "Astronomical Technology Engineer",
+    "location_met": "Astronomy Technology Conference",
+    "notes": "Telescope control systems specialist. Space observation technology expert. Astrophysics instrumentation focus."
+  },
+  {
+    "name": "Nova Chen",
+    "email": "nova@fusiontech.energy",
+    "company": "FusionTech Energy",
+    "title": "Fusion Energy Researcher",
+    "location_met": "Fusion Technology Symposium",
+    "notes": "Nuclear fusion technology specialist. Plasma physics expert. Clean energy research background."
+  },
+  {
+    "name": "Cosmos Lee",
+    "email": "cosmos@universaltech.scale",
+    "company": "UniversalTech Scale",
+    "title": "Scalable Systems Architect",
+    "location_met": "Scalable Systems Conference",
+    "notes": "Distributed systems specialist. High-performance computing expert. Petabyte-scale data processing focus."
+  },
+  {
+    "name": "Echo Garcia",
+    "email": "echo@soundtech.audio",
+    "company": "SoundTech Audio",
+    "title": "Audio Technology Engineer",
+    "location_met": "Audio Engineering Summit",
+    "notes": "Spatial audio systems specialist. 3D sound rendering expert. Immersive audio experience focus."
+  },
+  {
+    "name": "Zenith Anderson",
+    "email": "zenith@peaktech.performance",
+    "company": "PeakTech Performance",
+    "title": "Performance Optimization Specialist",
+    "location_met": "Performance Engineering Conference",
+    "notes": "System performance tuning expert. High-frequency trading systems specialist. Microsecond latency optimization focus."
+  }
+]

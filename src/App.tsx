@@ -52,8 +52,9 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container
+        disableGutters
         maxWidth={false}
-        sx={{ width: "100vw", height: "100vw", py: 4 }}
+        sx={{ minWidth: "100vw", width: "100vw", height: "100%" }}
       >
         <CareerNetworkApp />
       </Container>

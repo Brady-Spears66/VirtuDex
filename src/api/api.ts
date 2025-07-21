@@ -1,15 +1,27 @@
-import type { Person, NewPerson } from "../types";
+import type { Person, NewPerson, SearchParams } from "../types";
 
 const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
 export const apiService = {
   // Get all people
-  async getPeople(): Promise<Person[]> {
-    const response = await fetch(`${API_BASE}/people`);
-    if (!response.ok) {
-      throw new Error("Failed to fetch people");
+  async getPeople(searchParams?: SearchParams): Promise<Person[]> {
+    if (!searchParams) {
+      const response = await fetch(`${API_BASE}/people`);
+      if (!response.ok) {
+        throw new Error("Failed to fetch people");
+      }
+      return response.json();
+    } else {
+      const query = new URLSearchParams({
+        query: searchParams.query,
+        field: searchParams.field,
+      }).toString();
+      const response = await fetch(`${API_BASE}/people/search?${query}`);
+      if (!response.ok) {
+        throw new Error("Failed to fetch people with search parameters");
+      }
+      return response.json();
     }
-    return response.json();
   },
 
   // Get person by ID
