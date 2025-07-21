@@ -75,11 +75,11 @@ export const CareerNetworkApp: React.FC = () => {
   }
 
   return (
-    <Container maxWidth="lg" sx={{ py: 4 }}>
+    <Container maxWidth={false} sx={{ width: "100%", height: "100%", py: 4 }}>
       {/* Header */}
-      <Box sx={{ mb: 4 }}>
+      <Box sx={{ mb: 4 }} alignItems={"center"} textAlign="center">
         <Typography variant="h3" component="h1" fontWeight="bold" gutterBottom>
-          Career Network
+          Brady Spears Career Network
         </Typography>
         <Typography variant="subtitle1" color="text.secondary">
           Manage your professional connections
@@ -94,7 +94,7 @@ export const CareerNetworkApp: React.FC = () => {
       )}
 
       {/* Add Button */}
-      <Box sx={{ mb: 3 }}>
+      <Box sx={{ mb: 3 }} alignContent={"center"} textAlign="center">
         <Button
           variant="contained"
           startIcon={<AddIcon />}

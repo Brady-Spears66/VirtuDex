@@ -51,6 +51,7 @@ export const PeopleTable: React.FC<PeopleTableProps> = ({
       .toUpperCase()
       .slice(0, 2);
   };
+  console.log(people);
 
   if (people.length === 0 && !loading) {
     return (
@@ -135,7 +136,12 @@ export const PeopleTable: React.FC<PeopleTableProps> = ({
                         variant="caption"
                         underline="hover"
                       >
-                        {person.phone}
+                        {"(" +
+                          person.phone.slice(0, 3) +
+                          ") " +
+                          person.phone.slice(3, 6) +
+                          "-" +
+                          person.phone.slice(6)}
                       </Link>
                     </Box>
                   )}

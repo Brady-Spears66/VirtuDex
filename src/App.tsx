@@ -1,5 +1,5 @@
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-import { CssBaseline } from "@mui/material";
+import { Container, CssBaseline } from "@mui/material";
 import { CareerNetworkApp } from "./CareerNetworkApp";
 
 // Create Material UI theme
@@ -51,7 +51,12 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <CareerNetworkApp />
+      <Container
+        maxWidth={false}
+        sx={{ width: "100vw", height: "100vw", py: 4 }}
+      >
+        <CareerNetworkApp />
+      </Container>
     </ThemeProvider>
   );
 }

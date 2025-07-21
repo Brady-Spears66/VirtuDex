@@ -30,6 +30,7 @@ export const apiService = {
       },
       body: JSON.stringify(person),
     });
+    console.log(person);
     if (!response.ok) {
       throw new Error("Failed to create person");
     }
