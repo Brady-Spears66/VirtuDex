@@ -1,4 +1,15 @@
-# VirtuDex
+<div style="display: flex; align-items: center; gap: 12px;">
+  <img src="./public/database.png" alt="VirtuDex Logo" width="48" height="48" />
+  <h1 style="margin: 10;">VirtuDex</h1>
+</div>
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![Tauri](https://img.shields.io/badge/tauri-%2324C8DB.svg?style=for-the-badge&logo=tauri&logoColor=%23FFFFFF)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![Material-UI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
 A personal CRM desktop application for managing your professional network and personal connections.
 
@@ -24,8 +35,8 @@ A personal CRM desktop application for managing your professional network and pe
 Download the latest installer from the releases page:
 
 - macOS: `.dmg` installer
-- Windows: `.msi` installer
-- Linux: `.deb` or `.rpm` packages
+- Windows: `.msi` installer (<b>Coming Soon</b>)
+- Linux: `.deb` or `.rpm` packages (<b>Coming Soon</b>)
 
 ### Build from Source
 
@@ -105,3 +116,7 @@ CREATE TABLE people (
 
 - [ ] Export functionality (CSV, JSON)
 - [ ] Contact photos and avatars
+
+---
+
+© 2025 Brady Spears. All rights reserved.
